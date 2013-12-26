@@ -58,7 +58,7 @@ recipes:
 # - sprout-osx-rubymine::preferences
 
 node_attributes:
-  git_pairs_domain: pivotallabs.com
+  git_pairs_domain: atomicobject.com
   git_pairs_authors:
     - initials: me
       name: Mike English
