@@ -6,18 +6,18 @@ recipes:
 - sprout-osx-base::homebrew
 
 # settings
-# - pivotal_workstation::sshd_on
-# - pivotal_workstation::inputrc
-# - sprout-osx-settings::defaults_fast_key_repeat_rate
-# - pivotal_workstation::locate_on
-# - sprout-osx-settings::global_environment_variables
+- pivotal_workstation::sshd_on
+- pivotal_workstation::inputrc
+- sprout-osx-settings::defaults_fast_key_repeat_rate
+- pivotal_workstation::locate_on
+- sprout-osx-settings::global_environment_variables
 
 # development (general)
-# - sprout-osx-base::workspace_directory
-# - pivotal_workstation::unix_essentials
-# - sprout-osx-git::git_projects
-# - pivotal_workstation::git_config_global_defaults
-# - sprout-osx-git::git_scripts
+- sprout-osx-base::workspace_directory
+- pivotal_workstation::unix_essentials
+- sprout-osx-git::git_projects
+- pivotal_workstation::git_config_global_defaults
+- sprout-osx-git::git_scripts
 
 # development (rails)
 # - sprout-osx-rbenv
