@@ -20,19 +20,19 @@ recipes:
 - sprout-osx-git::git_scripts
 
 # development (rails)
-# - sprout-osx-rbenv
-# - pivotal_workstation::gem_setup
-# - pivotal_workstation::mysql
-# - pivotal_workstation::postgres
-# - sprout-osx-apps::imagemagick
-# - sprout-osx-apps::node_js
+- sprout-osx-rbenv
+- pivotal_workstation::gem_setup
+- pivotal_workstation::mysql
+- pivotal_workstation::postgres
+- sprout-osx-apps::imagemagick
+- sprout-osx-apps::node_js
 # - sprout-osx-apps::qt
 
 # apps
 # - pivotal_workstation::screen_sharing_app
 # - sprout-osx-apps::skype
 # - sprout-osx-apps::shiftit
-# - sprout-osx-apps::firefox
+- sprout-osx-apps::firefox
 # - sprout-osx-apps::dropbox
 # - sprout-osx-apps::chrome
 # - pivotal_workstation::mouse_locator
@@ -43,8 +43,8 @@ recipes:
 # - sprout-osx-apps::gitx
 - sprout-osx-apps::iterm2
 # - sprout-osx-apps::keycastr
-# - sprout-osx-apps::virtualbox
-# - sprout-osx-apps::vagrant
+- sprout-osx-apps::virtualbox
+- sprout-osx-apps::vagrant
 
 # apps (editors)
 # - sprout-osx-apps::textmate
